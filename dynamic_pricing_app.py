@@ -8,7 +8,7 @@ from PIL import Image
 
 # Load the trained model and preprocessing pipeline
 model = pickle.load(open(r"best_dynamic_pricing_model.pkl", 'rb'))
-preprocessor = joblib.load(r"preprocess_dynamic")
+preprocessor = joblib.load(r"preprocess_dynamic.pkl")
 
 
 # Streamlit App UI
