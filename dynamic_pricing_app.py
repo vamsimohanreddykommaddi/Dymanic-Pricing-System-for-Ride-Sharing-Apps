@@ -7,8 +7,8 @@ import plotly.graph_objects as go
 from PIL import Image
 
 # Load the trained model and preprocessing pipeline
-model = pickle.load(open(r"C:\Users\vamshi\best_dynamic_pricing_model.pkl", 'rb'))
-preprocessor = joblib.load(r"C:\Users\vamshi\preprocess_dynamic")
+model = pickle.load(open(r"best_dynamic_pricing_model.pkl", 'rb'))
+preprocessor = joblib.load(r"preprocess_dynamic")
 
 
 # Streamlit App UI
@@ -41,5 +41,5 @@ if st.button("Predict Ride Price 💰"):
 st.subheader("📊 Profitability of Dynamic Pricing (Based on Historical Data)")
 
 # Load and display the image
-image = Image.open(r"D:\Dynamic Pricing strategy\profit-chart.png")
+image = Image.open(r"profit-chart.png")
 st.image(image, caption='Profitable vs Loss Rides', use_column_width=True)
