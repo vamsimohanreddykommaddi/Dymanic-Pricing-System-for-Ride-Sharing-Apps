@@ -60,12 +60,15 @@ The new dynamic pricing strategy replaces a "one-size-fits-all" model with a **s
 ## 🚀 Try It Locally
 
 ### 1. Clone the Repo
-'''bash
+```bash
 git clone https://github.com/vamsimohanreddykommaddi/Dymanic-Pricing-System-for-Ride-Sharing-Apps.git
 cd Dymanic-Pricing-System-for-Ride-Sharing-Apps
-
+```
 ### 2. Install Requirements
+```bash
 pip install -r requirements.txt
-
+```
 ### 3. Run streamlit file
+```bash
 streamlit run dynamic_pricing_app.py
+```
