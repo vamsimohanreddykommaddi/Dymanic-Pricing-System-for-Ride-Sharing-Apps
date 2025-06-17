@@ -39,7 +39,7 @@ The new dynamic pricing strategy replaces a "one-size-fits-all" model with a **s
 ### ✅ Profitability from Dynamic Pricing
 
 <p align="center">
-  <img src="D:\Dynamic Pricing strategy\profit-chart.png" alt="Profitability Chart" width="400"/>
+  <img src="profit-chart.png" alt="Profitability Chart" width="400"/>
 </p>
 
 ---
